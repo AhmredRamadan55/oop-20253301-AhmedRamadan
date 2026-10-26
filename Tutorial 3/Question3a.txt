@@ -1,0 +1,14 @@
+Tutorial Session — Question 3(a)
+
+Trace:
+
+Initial total = 0
+
+1. i = 1 is odd: total = 0 - 1 = -1
+2. i = 2 is even: total = -1 + 2 = 1
+3. i = 3 is odd: total = 1 - 3 = -2
+4. i = 4 is even: total = -2 + 4 = 2
+5. i = 5 is odd: total = 2 - 5 = -3
+
+Exact output:
+-1 1 -2 2 -3
