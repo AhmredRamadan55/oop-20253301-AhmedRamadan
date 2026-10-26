@@ -1,12 +1,5 @@
-Lab Sheet 2 — Tutorial, Question 3
+3)
 
-Given flag = false and k = 3:
-
-I. flag && k > 0 → false
-Because flag is false, the whole AND expression is false.
-
-II. flag || k < 0 → false
-false || false evaluates to false.
-
-III. !flag && k == 3 → true
-!flag is true, and k == 3 is true, so the whole AND expression is true.
+I. false
+II. false
+III. true
