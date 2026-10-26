@@ -1,15 +1,5 @@
-Lab Sheet 2 — Tutorial, Question 2
+2)
 
-Explain the difference
+Separate if statements: each condition is checked independently; at most one executes. If x = 0, neither executes.
 
-Two separate if statements:
-if (x > 0) y++;
-if (x < 0) y--;
-
-These are independent if statements. Each condition is checked separately. For an integer x, the conditions are mutually exclusive, so at most one statement executes.
-
-One if / else-if chain:
-if (x > 0) y++;
-else if (x < 0) y--;
-
-These conditions form one decision chain. Once a condition is true, any remaining else-if conditions are skipped. If x is 0, neither statement executes.
+if / else-if chain: once a condition is true, the remaining branches are skipped. If x = 0, neither executes.
