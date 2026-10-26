@@ -1,25 +1,18 @@
-Tutorial — Q1: Trace the programs
+1)
 
-1. Output: 3 3.0 3.5 1 9
+Output: 3 3.0 3.5 1 9
 
-After statement:
-a  b  c  d    e    f
-int a = 7;                     7
-int b = 2;                     7 2
-int c = a / b;                 7 2 3
-double d = a / b;              7 2 3 3.0
-double e = a / (double) b;     7 2 3 3.0 3.5
-int f = a % b;                 7 2 3 3.0 3.5 1
-a = a + b;                     9 2 3 3.0 3.5 1
+Values after each statement (a, b, c, d, e, f):
+int a = 7;                  7
+int b = 2;                  7, 2
+int c = a / b;              7, 2, 3
+double d = a / b;           7, 2, 3, 3.0
+double e = a / (double) b;  7, 2, 3, 3.0, 3.5
+int f = a % b;              7, 2, 3, 3.0, 3.5, 1
+a = a + b;                  9, 2, 3, 3.0, 3.5, 1
 
-Discussion: a and b are both int, so a / b is integer division: 7 / 2 gives 3 and the fractional part is discarded. Only afterwards is the int 3 converted to a double for storage in d, giving 3.0. In e, the cast (double) b makes the division floating-point, so the result is 3.5.
+2)
+value = -3
 
-2. Precedence
-value becomes -3: 2 * value is evaluated first (2 * 2 = 4), then 1 - 4 = -3.
-
-Discussion: Java evaluates by operator precedence: *, /, % come before + and -. If 1 - 2 were evaluated first, the result would be (1 - 2) * 2 = -2, which is wrong.
-
-3. Increment operators
-Output: The value of a is 8, the value of b is 14.
-
-Operands are evaluated left to right. a++ yields 6 and then makes a equal to 7. ++a makes a equal to 8 and yields 8. So b = 6 + 8 = 14 and a ends at 8.
+3)
+a = 8, b = 14
