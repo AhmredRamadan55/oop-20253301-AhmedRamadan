@@ -1,8 +1,5 @@
-Lab Sheet 2 — Tutorial, Question 4(a)
+4(a)
 
-Error: The break statement is missing after case 1. Without it, when num is 1 the program prints both "One" and "Three".
-
-Corrected switch:
 switch (num) {
     case 1:
         System.out.println("One");
