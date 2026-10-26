@@ -1,0 +1,58 @@
+Q3: Variables, input, operators, and Math methods
+
+1. Best data types
+- Number of students: int
+- Product price: double
+- Letter grade: char, for example 'A'
+- Passed: boolean
+- World population: long (a population around 8 billion is greater than the maximum int value)
+- Distance in kilometers: double
+
+2. Which declarations compile?
+None of the following declarations compile:
+
+a) int 2fast = 5;
+An identifier cannot start with a digit.
+
+b) double gpa = "3.5";
+A String cannot be assigned to a double.
+
+c) char c = "A";
+A char uses single quotes: char c = 'A';
+
+d) int x = 10; int x = 20;
+The variable x is declared twice in the same scope.
+
+e) boolean b = 1;
+A boolean must be true or false, not 1 or 0.
+
+f) String s = 'hello';
+A String uses double quotes: String s = "hello";
+
+3. Scanner methods
+- next() reads one token, ending at whitespace.
+- nextLine() reads the rest of the current line, including spaces.
+- After nextInt(), the newline remains in the input. Call nextLine() once to consume it before reading a later full line.
+- If nextInt() reads text such as abc instead of an integer, it throws InputMismatchException. The invalid token remains in the input.
+
+4. Integer division and remainder
+- 17 / 5 is 3
+- 17 % 5 is 2
+- 17 / 5.0 is 3.4
+
+5. Math methods
+- Math.pow(2, 3) = 8.0 (double)
+- Math.sqrt(49) = 7.0 (double)
+- Math.max(3, 7) = 7 (int)
+- Math.min(-2, 5) = -2 (int)
+- Math.abs(-4.5) = 4.5 (double)
+- Math.round(-2.5) = -2 (long)
+- Math.round(2.4) = 2 (long)
+- Math.floor(3.9) = 3.0 (double)
+- Math.ceil(3.1) = 4.0 (double)
+
+6. The final keyword
+A variable declared final can be assigned only once. Either remove final from MAX or remove the later reassignment.
+
+7. Narrowing conversion
+int x = 3.5; does not compile because it would lose the fractional part. Use double x = 3.5; to keep it, or cast explicitly with int x = (int) 3.5; which stores 3.
