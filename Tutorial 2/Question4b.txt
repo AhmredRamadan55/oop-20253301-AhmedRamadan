@@ -1,15 +1,8 @@
-Lab Sheet 2 — Tutorial, Question 4(b)
+4(b)
 
-Error: The break statement is missing after case 'u'. Without it, execution falls through to default and prints "Not vowel" as well. Add break before default.
-
-Corrected switch:
 switch (ch) {
     case 'a':
-        System.out.println("Vowel");
-        break;
     case 'e':
-        System.out.println("Vowel");
-        break;
     case 'i':
     case 'o':
     case 'u':
