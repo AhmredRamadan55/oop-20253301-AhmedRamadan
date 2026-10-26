@@ -1,0 +1,9 @@
+Tutorial Session — Question 1
+
+What do these code fragments print?
+
+a. 2 4 8 16
+b. 1 4 9 16 25
+c. 3 6 9
+d. 10 7 4 1
+e. 8 4 2 1
