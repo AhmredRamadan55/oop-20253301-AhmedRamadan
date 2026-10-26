@@ -1,0 +1,13 @@
+Lab Sheet 2 — Tutorial, Question 1
+
+What do these code fragments print?
+
+a. Output: Equal
+
+b. Output: Odd
+
+c. Output: Close enough
+Explanation: 22.0 / 7 is approximately 3.142857. Its difference from 3.14 is less than 0.01.
+
+d. Output: Opposites
+Explanation: 5 + (-5) = 0.
