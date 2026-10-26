@@ -1,28 +1,14 @@
-Q2: Find the errors
+2)
 
-a) system.out.println("Hi");
-Error: Java is case-sensitive. "system" must be capitalized.
-Correct: System.out.println("Hi");
+a) System.out.println("Hi");
 
-b) System.out.println("Hi")
-Error: Missing semicolon at the end.
-Correct: System.out.println("Hi");
+b) System.out.println("Hi");
 
-c) public static void main(String args)
-Error: The main method parameter must be a String array. The class may compile, but Java will not find a valid entry point when you run it.
-Correct: public static void main(String[] args)
+c) public static void main(String[] args)
 
- d) System.out.println('Hi');
-Error: Single quotes are for one char; "Hi" is a String and needs double quotes.
-Correct: System.out.println("Hi");
+d) System.out.println("Hi");
 
-e) Int value; value += 5;
-Errors: Java's type name is lowercase "int", and value must be initialized before it is used with +=.
-Correct:
-int value = 0;
-value += 5;
+e) int value = 0;
+   value += 5;
 
-f) double a = 2, b = 3; doublel avg = a + b / 2;
-Errors: "doublel" is not a Java type. Also, use parentheses to add the values before dividing to compute their average.
-Correct:
-double avg = (a + b) / 2;
+f) double avg = (a + b) / 2.0;
