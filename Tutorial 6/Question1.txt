@@ -1,0 +1,22 @@
+1)
+
+A) The code has three errors:
+
+- `new Circle()` is invalid because the class only declares `Circle(double r)`. Use `new Circle(0.0)`.
+- `circle2` is declared twice in the same scope. Rename the second declaration to `circle3`.
+- `circle1.radius(10)` calls a method that does not exist and cannot access the private field. Use `circle1.setRadius(10.0)`.
+
+If both classes are saved in one source file, only one top-level class can be public. Save `Circle` and `Main` in separate files, or make `Circle` package-private.
+
+B) Three Circle objects are created: `circle1`, `circle2`, and `circle3`.
+
+C) The Circle class declares one constructor: `Circle(double r)`. It is called three times after fixing the code.
+
+D) The corrected code prints:
+
+Circle 1: radius = 10.0
+Circle 1: area = 314.1592653589793
+Circle 2: radius = 5.0
+Circle 2: area = 78.53981633974483
+
+The final radius of `circle3` is 3.5, but it is not printed.
