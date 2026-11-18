@@ -1,0 +1,16 @@
+2)
+
+For `s1 = "Java Programming"`, `s2 = "java programming"`, and `s3 = "Java Programming!"`:
+
+(1) P
+(2) g
+(3) r
+(4) 171
+(5) false
+(6) true
+(7) true
+(8) false
+(9) 10
+(10) 12
+(11) Java Programming!
+(12) 17

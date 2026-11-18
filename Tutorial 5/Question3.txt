@@ -1,0 +1,35 @@
+3)
+
+A) For the input `4 9 2 7 5`, the trace table is:
+
+i | a[i] | sum | maxIdx
+0 | 4 | 4 | 0
+1 | 9 | 13 | 1
+2 | 2 | 15 | 1
+3 | 7 | 22 | 1
+4 | 5 | 27 | 1
+
+Output:
+
+Sum=27 MaxIdx=1
+
+B) The matrix is:
+
+1 2 3
+4 5 6
+7 8 9
+
+The main diagonal sum is 15 and the other diagonal sum is 15. The row sums are 6, 15, and 24. After the matrix is transposed, `m[1][2]` is 8 and `m[2][0]` is 3, so the last output is:
+
+15 15
+Row 0: 6
+Row 1: 15
+Row 2: 24
+8 3
+
+C) Output:
+
+99 5
+11 3
+
+`change` updates `arr[0]` through the copied array reference, so the original array is changed. The integer parameter `x` is a copy of `n`, so assigning 99 to `x` does not change `n`. `sumRow` returns 11 for row 2 and 3 for row 0.
