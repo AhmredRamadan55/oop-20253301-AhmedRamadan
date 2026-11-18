@@ -1,0 +1,15 @@
+1)
+
+A) Two Employee objects are created: `emp1` and `emp2`.
+
+B) Two constructors are declared in the Employee class: the no-argument constructor and `Employee(String n, double s)`. Each constructor is called once, for two calls total.
+
+C) Exact output:
+
+Employee 1: Unknown, Salary = 4000.0
+Employee 2: Sara, Salary = 5750.0
+
+D) Final attribute values:
+
+- `emp1`: name = Unknown, salary = 4000.0
+- `emp2`: name = Sara, salary = 5750.0

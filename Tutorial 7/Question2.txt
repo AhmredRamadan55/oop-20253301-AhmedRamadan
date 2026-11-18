@@ -1,0 +1,17 @@
+2)
+
+A) Three Product objects and one Product array object are created.
+
+B) One constructor is declared in Product: `Product(String n, double p)`. It is called three times.
+
+C) Exact output:
+
+Laptop = 28000.0
+Mouse = 600.0
+Keyboard = 1050.0
+
+D) Final prices:
+
+- Laptop: 28000.0
+- Mouse: 600.0
+- Keyboard: 1050.0
