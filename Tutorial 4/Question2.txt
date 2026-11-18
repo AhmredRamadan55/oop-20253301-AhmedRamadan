@@ -1,0 +1,11 @@
+2)
+
+Exact output:
+
+Main Before: x = 10, y = 20
+Inside modifyValues: x = 15, y = 40
+Main After modifyValues: x = 10, y = 20
+Inside computeAndUpdate: x = 30, b = 15
+Main After computeAndUpdate: x = 60, y = 20
+
+`modifyValues` receives copies of the integer values, so changing its local `x` and `y` does not change the variables in `main`. `computeAndUpdate` returns 60, which is assigned to `main`'s `x`; `y` remains 20.
